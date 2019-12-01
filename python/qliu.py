@@ -1,7 +1,7 @@
 from qiniu import Auth, put_file, etag
 import qiniu.config
-access_key = 'gbd8YrpRrZ3UOCCEoXz28W21OnX6eS2utYtRow6l'
-secret_key = 'Y3CbwZC_ODovvs-HAIxSlYfbMwSEYL7yMLyy26-I'
+access_key = ''
+secret_key = ''
 #构建鉴权对象
 q = Auth(access_key, secret_key)
 #要上传的空间
